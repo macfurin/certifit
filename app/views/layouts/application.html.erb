@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Certifit</title>
+  <%= stylesheet_link_tag "application" %>
+  <%= stylesheet_link_tag "http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+  <div class="hero-unit">
+      <h1>Certif it</h1>
+      <p>La course à pied sans soucis de certif !</p>
+    <p><a class="btn primary large" href="#">En savoir plus</a></p>
+
+  </div>
+
+  <%= yield %>
+
+</div>
+
+</body>
+</html>
